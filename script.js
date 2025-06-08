@@ -1,7 +1,7 @@
 //TMDB 
 
-// const API_KEY = 'api_key=57e0b345a92b9a5df039f38027651bb8';
-const API_KEY = 'api_key=c40d0108829c993228ef46e13d985167';
+const API_KEY = 'api_key=57e0b345a92b9a5df039f38027651bb8';
+// const API_KEY = 'api_key=c40d0108829c993228ef46e13d985167';
 const BASE_URL = 'https://api.themoviedb.org/3';
 const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
 const IMG_URL = 'https://image.tmdb.org/t/p/w500';
